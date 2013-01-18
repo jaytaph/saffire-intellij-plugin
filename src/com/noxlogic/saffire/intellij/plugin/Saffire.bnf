@@ -1,0 +1,22 @@
+
+{
+  parserClass="com.noxlogic.saffire.intellij.plugin.parser.SimpleParser"
+  stubParserClass="com.noxlogic.saffire.intellij.plugin.GeneratedParserUtilBase"
+
+  extends="com.intellij.extapi.psi.ASTWrapperPsiElement"
+
+  psiClassPrefix="Simple"
+  psiImplClassSuffix="Impl"
+  psiPackage="com.noxlogic.saffire.intellij.plugin.psi"
+  psiImplPackage="com.noxlogic.saffire.intellij.plugin.impl"
+
+  elementTypeHolderClass="com.noxlogic.saffire.intellij.plugin.psi.SaffireTypes"
+  elementTypeClass="com.noxlogic.saffire.intellij.plugin.psi.SaffireElementType"
+  tokenTypeClass="com.noxlogic.saffire.intellij.plugin.psi.SaffireTokenType"
+}
+
+saffireFile ::= item_*
+
+private item_ ::= (property|COMMENT|CRLF)
+
+property ::= (KEY? SEPARATOR VALUE?) | KEY
