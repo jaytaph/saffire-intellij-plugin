@@ -2,7 +2,7 @@ use com.noxlogic.saffire.intellij.plugin;
 
 import com.intellij.lexer.FlexLexer;
 import com.intellij.psi.tree.IElementType;
-import com.simpleplugin.psi.SaffireTypes;
+import com.noxlogic.saffire.intellij.plugin.psi.SaffireTypes;
 import com.intellij.psi.TokenType;
 
 %%

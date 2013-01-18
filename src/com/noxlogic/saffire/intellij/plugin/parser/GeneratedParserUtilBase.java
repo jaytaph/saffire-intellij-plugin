@@ -1,4 +1,4 @@
-package com.noxlogic.saffire.intellij.plugin;
+package com.noxlogic.saffire.intellij.plugin.parser;
 
 import com.intellij.lang.*;
 import com.intellij.lang.impl.PsiBuilderAdapter;

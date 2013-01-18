@@ -1,11 +1,11 @@
 
 {
-  parserClass="com.noxlogic.saffire.intellij.plugin.parser.SimpleParser"
-  stubParserClass="com.noxlogic.saffire.intellij.plugin.GeneratedParserUtilBase"
+  parserClass="com.noxlogic.saffire.intellij.plugin.parser.SaffireParser"
+  stubParserClass="com.noxlogic.saffire.intellij.plugin.parser.GeneratedParserUtilBase.noxlogic.saffire.intellij.plugin.GeneratedParserUtilBase"
 
   extends="com.intellij.extapi.psi.ASTWrapperPsiElement"
 
-  psiClassPrefix="Simple"
+  psiClassPrefix="Saffire"
   psiImplClassSuffix="Impl"
   psiPackage="com.noxlogic.saffire.intellij.plugin.psi"
   psiImplPackage="com.noxlogic.saffire.intellij.plugin.impl"

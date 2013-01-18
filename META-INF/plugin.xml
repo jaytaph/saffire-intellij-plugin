@@ -39,6 +39,7 @@
   <extensions defaultExtensionNs="com.intellij">
     <!-- Add your extensions here -->
     <fileTypeFactory implementation="com.noxlogic.saffire.intellij.plugin.SaffireFileTypeFactory"/>
+    <lang.parserDefinition language="Saffire" implementationClass="com.noxlogic.saffire.intellij.plugin.parser.SimpleParserDefinition"/>
   </extensions>
 
 </idea-plugin>
